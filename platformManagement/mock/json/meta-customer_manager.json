@@ -1,0 +1,137 @@
+{
+    "status": "0",
+    "data": {
+      "meta": {
+        "type":"report",
+        "code": "customer_manager",
+        "path": "/report/data/customer_manager",
+        "title": "顾客管理",
+        "buttons": [
+          {
+            "name": "搜索",
+            "icon": null,
+            "event": {
+              "type": "submit",
+              "url": "/from/order_manager_code/submit"
+            }
+          }
+        ],
+        "columns": [
+          {
+            "name": "customerNO",
+            "title": "顾客编号"
+          },
+          {
+            "name": "userName",
+            "title": "用户名"
+          },
+          {
+            "name": "mobile",
+            "title": "手机号"
+          },
+          {
+            "name": "openId",
+            "title": "open ID"
+          },
+          {
+            "name": "boundStore",
+            "title": "绑定门店"
+          },
+          
+          {
+            "name": "",
+            "title": "操作",
+            "type": "button",
+            "buttons": [
+              {
+                "name": "查看",
+                "icon": null,
+                "event": {
+                  "type": "router",
+                  "params": [
+                    "customerNO"
+                  ],
+                  "static": {
+                    "method": "update"
+                  },
+                  "path": "/customerDetails/index"
+                }
+			  },
+			  {
+                "name": "加入黑名单",
+                "icon": null,
+                "event": {
+                  "type": "router",
+                  "params": [
+                    "orderNO"
+                  ],
+                  "static": {
+                    "method": "update"
+                  },
+                  "url": "/details/index"
+                }
+              }
+            ]
+          }
+        ],
+        "params": [
+          {
+            "name": "userName",
+            "inputModel": "input",
+            "title": "用户",
+            "value": "88",
+            "placeholder": "",
+            "isHidden": false
+          },
+          {
+            "name": "openId",
+            "inputModel": "inputDia",
+            "title": "open ID",
+            "placeholder": "",
+            "value": "",
+            "url": "/report/meta/customer",
+            "isHidden": false
+          },
+		  {
+            "name": "blackList",
+            "inputModel": "select",
+            "title": "黑名单",
+            "placeholder": "请选择",
+            "value": "",
+            "options":[{
+              "value": "1102521",
+              "label": "是"
+            }, {
+              "value": "18514",
+              "label": "否"
+            }],
+            "isHidden": false
+          },
+          {
+            "name": "placeOrder",
+            "inputModel": "range",
+            "title": "下单次数",
+            "placeholder": "",
+            "value": "",
+            "step": 0.01,
+            "isHidden": false
+          },
+          {
+            "name": "lastTime",
+            "inputModel": "double-date-picker",
+            "title": "最后下单时间",
+            "rangeSeparator": "至",
+            "startPlaceholder": "开始日期",
+            "endPlaceholder": "结束日期",
+            "value": "",
+            "isHidden": false
+          }
+        ]
+      },
+      "page": {
+        "pageNo": 1,
+        "pageSize": 20,
+        "TotalRows": 0
+      }
+    }
+  }

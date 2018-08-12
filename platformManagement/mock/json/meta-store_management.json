@@ -1,0 +1,189 @@
+{
+  "status": "0",
+  "data": {
+    "meta": {
+      "url": "/report/data/store_management",
+      "type": "report",
+      "id":"sys_code",
+      "code": "store_management",
+      "title": "门店账户列表",
+      "button": [
+        {
+          "name": "搜索",
+          "icon": null,
+          "event": {
+            "type": "submit",
+            "url": ""
+          }
+        },
+        {
+          "name": "清空",
+          "icon": null,
+          "event": {
+            "type": "submit",
+            "url": ""
+          }
+        }
+      ],
+      "columns": [
+        {
+          "name": "",
+          "title": "操作",
+          "type": "button",
+          "aglign": "center",
+          "width": "80",
+          "fixed": "left",
+          "buttons": [
+            {
+              "name": "编辑",
+              "icon": null,
+              "width": "30",
+              "event": {
+                "type": "router",
+                "params": [
+                  "storeCode"
+                ],
+                "url": ""
+              }
+            },
+            {
+              "name": "查看",
+              "icon": null,
+              "width": "30",
+              "event": {
+                "type": "router",
+                "params": [
+                  "storeCode"
+                ],
+                "url": ""
+              }
+            }
+          ]
+        },
+        {
+          "name": "status",
+          "title": "状态"
+        },
+        {
+          "name": "storeCode",
+          "title": "门店编码"
+        },
+        {
+          "name": "storeAccout",
+          "title": "门店账户"
+        },
+        {
+          "name": "storeName",
+          "title": "门店名称"
+        },
+        {
+          "name": "province",
+          "title": "省"
+        },
+        {
+          "name": "city",
+          "title": "市"
+        },
+        {
+          "name": "county",
+          "title": "县"
+        },
+        {
+          "name": "town",
+          "title": "镇"
+        },
+        {
+          "name": "village",
+          "title": "村"
+        },
+        {
+          "name": "storeAddress",
+          "title": "门店地址"
+        },
+        {
+          "name": "linkMan",
+          "title": "联系人"
+        },
+        {
+          "name": "payType",
+          "title": "支付方式"
+        },
+        {
+          "name": "weChatNickname",
+          "title": "微信昵称"
+        }
+      ],
+      "params": [
+        {
+          "name": "status",
+          "inputModel": "3",
+          "title": "状态",
+          "value": "",
+          "placeholder": "",
+          "isHidden": false
+        },
+        {
+          "name": "storeAccount",
+          "inputModel": "1",
+          "title": "门店账户",
+          "value": "",
+          "placeholder": "",
+          "isHidden": false
+        },
+        {
+          "name": "storeName",
+          "inputModel": "1",
+          "title": "门店名称",
+          "value": "",
+          "placeholder": "",
+          "isHidden": false
+        },
+        {
+          "name": "province",
+          "inputModel": "1",
+          "title": "省",
+          "value": "",
+          "placeholder": "",
+          "isHidden": false
+        },
+        {
+          "name": "city",
+          "inputModel": "1",
+          "title": "市",
+          "value": "",
+          "placeholder": "",
+          "isHidden": false
+        },
+        {
+          "name": "county",
+          "inputModel": "1",
+          "title": "县",
+          "value": "",
+          "placeholder": "",
+          "isHidden": false
+        },
+        {
+          "name": "town",
+          "inputModel": "1",
+          "title": "镇",
+          "value": "",
+          "placeholder": "",
+          "isHidden": false
+        },
+        {
+          "name": "village",
+          "inputModel": "1",
+          "title": "村",
+          "value": "",
+          "placeholder": "",
+          "isHidden": false
+        }
+      ]
+    },
+    "page": {
+      "pageNo": 1,
+      "pageSize": 20,
+      "TotalRows": 0
+    }
+  }
+}

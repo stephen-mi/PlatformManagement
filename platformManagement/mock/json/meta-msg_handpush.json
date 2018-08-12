@@ -1,0 +1,117 @@
+{
+  "status": "0",
+  "data": {
+    "meta": {
+      "url": "/report/data/msg_handpush",
+      "type": "report",
+      "id": "msg_handpush",
+      "code": "msg_handpush",
+      "title": "手工推送消息",
+      "buttons": [{
+          "name": "新增",
+          "icon": null,
+          "event": {
+            "type": "router",
+            "url": "/config/%2Fform%2Fmeta%2Fmsg_handpush",
+            "callBack": { 
+            }
+          }
+        },
+        {
+          "name": "搜索",
+          "icon": null,
+          "event": {
+            "type": "submit",
+            "url": "/from/msg_handpush/submit"
+          }
+        }
+      ],
+      "columns": [{
+          "name": "noticeRole",
+          "title": "通知角色"
+        },
+        {
+          "name": "msgDetails",
+          "title": "消息详情",
+          "aglign": "center"
+        },
+        {
+          "name": "creationTime",
+          "title": "创建时间",
+          "aglign": "center"
+        },
+        {
+          "name": "creationMan",
+          "title": "创建人",
+          "aglign": "center"
+        },
+        {
+          "name": "lastpushTime",
+          "title": "最后推送时间",
+          "aglign": "center"
+        },
+        {
+          "name": "",
+          "title": "操作",
+          "type": "button",
+          "buttons": [{
+              "name": "编辑",
+              "icon": null,
+              "event": {
+                "type": "router",
+                "params": [
+                  "msg_handpush"
+                ],
+                "url": "/form/msg_handpush"
+              }
+            },
+            {
+              "name": "推送",
+              "icon": null,
+              "event": {
+                "type": "submit",
+                "params": [
+                  "order_code"
+                ],
+                "url": "/form/order_code"
+              }
+            },
+            {
+              "name": "删除",
+              "icon": null,
+              "event": {
+                "type": "delete",
+                "params": [
+                  "order_code"
+                ],
+                "url": "/report/delete/order_code"
+              }
+            }
+          ]
+        }
+      ],
+      "params": [{
+        "name": "role_type",
+        "inputModel": "3",
+        "title": "通知角色",
+        "placeholder": "请选择角色类型",
+        "value": "",
+        "isHidden": false,
+        "options": [{
+            "value": 1,
+            "label": "用户"
+          },
+          {
+            "value": 2,
+            "label": "门店"
+          }
+        ]
+      }]
+    },
+    "page": {
+      "pageNo": 1,
+      "pageSize": 20,
+      "TotalRows": 0
+    }
+  }
+}

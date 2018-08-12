@@ -1,0 +1,147 @@
+{
+  "status":"0",
+  "data":{
+      "meta":{
+          "code":"rules_preferential_list",
+          "title":"坎级规则列表",
+          "url": "/report/data/rules_preferential_list",
+          "type": "report",
+          "id":"sys_code",
+          "buttons":[
+              {
+                  "name":"添加",
+                  "icon":null,
+                  "event":{
+                      "type":"router",
+                      "params":["111"],
+                      "url":"../promotion/addtemplate"
+                  }
+              },{
+                  "name":"查询",
+                  "icon":null,
+                  "event":{
+                      "type":"submit",
+                      "url":""
+                  }
+              },
+              {
+                "name":"重置",
+                "icon":null,
+                "event":{
+                    "type":"submit",
+                    "url":""
+                }
+            }
+          ],
+          "columns":[
+            {
+              "type": "index",
+              "name": "",
+              "title": "序号",
+              "aglign": "center",
+              "width": "50",
+              "fixed": "left"
+            },
+             {
+                 "name":"",
+                 "title":"操作",
+                 "type":"button",
+                 "buttons":[
+                     {
+                         "name":"编辑",
+                         "icon":null,
+                         "event":{
+                             "type":"router",
+                             "params":["storeCode"],
+                              "url":""
+                         }
+                     },{
+                         "name":"查看",
+                          "icon":null,
+                          "event":{
+                              "type":"router",
+                              "params":["storeCode"],
+                              "url":""
+                          }
+                     },
+                     {
+                      "name":"复用",
+                       "icon":null,
+                       "event":{
+                           "type":"router",
+                           "params":["storeCode"],
+                           "url":""
+                       }
+                  }
+                 ]
+             },
+             {
+                 "name":"status",
+                 "title":"坎级类型"
+             },{
+                 "name":"storeCode",
+                 "title":"优惠方式规则名称"
+             },{
+                 "name":"storeAccout",
+                 "title":"优惠方式规则编码"
+             },{
+                 "name":"storeName",
+                 "title":"模版数量"
+             },{
+                 "name":"province",
+                 "title":"出资方占比（%）"
+             },{
+                 "name":"city",
+                 "title":"引用数量"
+             },{
+                 "name":"county",
+                 "title":"创建人"
+             },{
+                 "name":"town",
+                 "title":"创建时间"
+             },{
+                 "name":"village",
+                 "title":"修改人"
+             },
+             {
+              "name":"village2",
+              "title":"修改时间"
+          }
+          ],
+      "params": [
+        {
+          "name": "orderNO",
+          "inputModel": "1",
+          "title": "坎级规则名称",
+          "value": "",
+          "placeholder": "",
+          "isHidden": false
+        },
+        {
+          "name": "orderUser",
+          "inputModel": "1",
+          "title": "坎级规则规则编码",
+          "placeholder": "",
+          "value": "",
+          "isHidden": false
+        },
+        {
+          "name": "userMobile",
+          "inputModel": "3",
+          "title": "坎级类型",
+          "placeholder": "请选择",
+          "options": [
+            {"value": "满减","lable": "121"}
+          ],
+          "value": [],
+          "isHidden": false
+        }
+      ]
+    },
+      "page": {
+        "pageNo": 1,
+        "pageSize": 20,
+        "TotalRows": 0
+      }
+  }
+}

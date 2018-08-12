@@ -1,0 +1,69 @@
+{
+  "status": "0",
+  "data": {
+    "meta": {
+      "type": "base-form",
+      "url": "",
+      "id":"msg_handpush",
+      "title": "手工推送新增",
+      "buttons":[
+        {
+          "name": "保存",
+          "icon": null,
+          "event": {
+            "type": "ajax",
+            "url": "/form/sys_code",
+            "callback": {
+              "refresh": false
+            }
+          }
+        },
+        {
+          "name": "取消",
+          "icon": null,
+          "event": {
+            "type": "cancel",
+            "callback": {
+              "refresh": true
+            }
+          }
+        }
+      ],
+      "items": [
+        {
+          "name": "msgContent",
+          "inputModel": "2",
+          "title": "消息内容",
+          "value": "",
+          "placeholder":"请输入消息内容",
+          "isHidden": false
+        },
+        {
+          "name": "PushRole",
+          "inputModel": "3",
+          "title": "推送角色",
+          "value": "",
+          "placeholder":"请选择角色类型",
+          "isHidden": false,
+          "options": [
+            {
+              "value": 1,
+              "label": "门店"
+            },
+            {
+              "value": 2,
+              "label": "用户"
+            }
+          ]
+        },
+        {
+          "name": "timingPush",
+          "inputModel": "7",
+          "title": "定时推送",
+          "value": "",
+          "isHidden": false
+        }
+      ]
+    }
+  }
+}

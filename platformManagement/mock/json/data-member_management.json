@@ -1,0 +1,68 @@
+{
+    "status": "0",
+    "data":{
+      "pageNo" : 1,
+      "pageSize": 20,
+      "totalPages": 2,
+      "totalRows": 19,
+      "data": [
+        {
+          "prodPer": "张小花",
+          "prodBrand": "zhagnxiaohua",
+          "prodType": "13161918750",
+          "team": "系统运营权限组",
+          "updateTime": "2018-4-1",
+          "attribute1": "1",
+          "attribute2":"2",
+          "attribute3":"3"
+        },
+        {
+            "prodPer": "张小花",
+            "prodBrand": "zhagnxiaohua",
+            "prodType": "13161918750",
+            "team": "系统运营权限组",
+            "updateTime": "2018-4-1",
+            "attribute1": "1",
+            "attribute2":"2",
+            "attribute3":"3"
+          },{
+            "prodPer": "张小花",
+            "prodBrand": "zhagnxiaohua",
+            "prodType": "13161918750",
+            "team": "系统运营权限组",
+            "updateTime": "2018-4-1",
+            "attribute1": "1",
+            "attribute2":"2",
+            "attribute3":"3"
+          },{
+            "prodPer": "张小花",
+            "prodBrand": "zhagnxiaohua",
+            "prodType": "13161918750",
+            "team": "系统运营权限组",
+            "updateTime": "2018-4-1",
+            "attribute1": "1",
+            "attribute2":"2",
+            "attribute3":"3"
+          },{
+            "prodPer": "张小花",
+            "prodBrand": "zhagnxiaohua",
+            "prodType": "13161918750",
+            "team": "系统运营权限组",
+            "updateTime": "2018-4-1",
+            "attribute1": "1",
+            "attribute2":"2",
+            "attribute3":"3"
+          },{
+            "prodPer": "张小花",
+            "prodBrand": "zhagnxiaohua",
+            "prodType": "13161918750",
+            "team": "系统运营权限组",
+            "updateTime": "2018-4-1",
+            "attribute1": "1",
+            "attribute2":"2",
+            "attribute3":"3"
+          }
+      ]
+    }
+  }
+  

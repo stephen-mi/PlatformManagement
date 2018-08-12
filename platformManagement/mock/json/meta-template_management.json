@@ -1,0 +1,235 @@
+{
+  "status":"0",
+  "data":{
+      "meta":{
+          "code":"template_management",
+          "title":"优惠券模版管理",
+          "path": "/report/data/template_management",
+          "type": "report",
+          "id":"sys_code",
+          "buttons":[
+              {
+                  "name":"添加",
+                  "icon":null,
+                  "event":{
+                      "type":"router",
+                      "params":["111"],
+                      "url":"../promotion/addtemplate"
+                  }
+              },{
+                  "name":"查询",
+                  "icon":null,
+                  "event":{
+                      "type":"submit",
+                      "url":""
+                  }
+              },
+              {
+                "name":"重置",
+                "icon":null,
+                "event":{
+                    "type":"submit",
+                    "url":""
+                }
+            }
+          ],
+          "columns":[
+            {
+              "type": "index",
+              "name": "",
+              "title": "序号",
+              "aglign": "center",
+              "width": "50",
+              "fixed": "left"
+            },
+             {
+                 "name":"",
+                 "title":"操作",
+                 "type":"button",
+                 "buttons":[
+                     {
+                         "name":"编辑",
+                         "icon":null,
+                         "event":{
+                             "type":"router",
+                             "params":["id"],
+                              "url":"../promotion/addtemplate"
+                         }
+                     },{
+                         "name":"查看",
+                          "icon":null,
+                          "event":{
+                              "type":"router",
+                              "params":["id"],
+                              "url":"../promotion/addtemplate"
+                          }
+                     },
+                     {
+                      "name":"复用",
+                       "icon":null,
+                       "event":{
+                           "type":"router",
+                           "params":["storeCode"],
+                           "url":""
+                       }
+                  }
+                 ]
+             },
+             {
+                 "name":"status",
+                 "title":"优惠券编码"
+             },{
+                 "name":"storeCode",
+                 "type": "alertconten",
+                 "title":"优惠券标题"
+             },{
+                 "name":"storeAccout",
+                 "type": "goRouter",
+                 "title":"优惠券标签"
+             },{
+                 "name":"storeName",
+                 "title":"优惠券类型"
+             },{
+                 "name":"province",
+                 "title":"是否有效"
+             },{
+                 "name":"city",
+                 "title":"优惠券金额计算方式"
+             },{
+                 "name":"county",
+                 "title":"出资方规则名称"
+             },{
+                 "name":"town",
+                 "title":"坎级规则名称"
+             },{
+                 "name":"village",
+                 "title":"优惠券适用范围名称"
+             },{
+                 "name":"storeAddress",
+                 "title":"创建人"
+             },
+             {
+                 "name":"linkMan",
+                 "title":"创建时间"
+             },{
+                 "name":"payType",
+                 "title":"修改人"
+             },{
+                 "name":"weChatNickname",
+                 "title":"修改时间"
+             }
+          ],
+      "params": [
+        {
+          "name": "orderNO",
+          "inputModel": "input",
+          "title": "优惠券编码",
+          "value": "",
+          "placeholder": "",
+          "isHidden": false
+        },
+        {
+          "name": "orderUser",
+          "inputModel": "input",
+          "title": "优惠券标题",
+          "placeholder": "",
+          "value": "",
+          "isHidden": false
+        },
+        {
+          "name": "userMobile",
+          "inputModel": "select",
+          "title": "优惠券标签",
+          "placeholder": "请选择",
+          "options": [
+            {"value": "128大促","lable": "121"},
+            {"value": "130大促","lable": "12"}
+          ],
+          "value": [],
+          "isHidden": false
+        },
+        {
+          "name": "orderStore",
+          "inputModel": "select",
+          "title": "优惠券金额计算方式",
+          "placeholder": "",
+          "options": [
+            {"value": "128大促","lable": "121"},
+            {"value": "130大促","lable": "12"}
+          ],
+          "value": [],
+          "isHidden": false
+        },
+        {
+          "name": "province",
+          "inputModel": "input",
+          "title": "出资方规则名称",
+          "placeholder": "",
+          "value": "",
+          "isHidden": false
+        },
+        {
+          "name": "city",
+          "inputModel": "input",
+          "title": "坎级规则名称",
+          "placeholder": "",
+          "value": "",
+          "isHidden": false
+        },
+        {
+          "name": "county",
+          "inputModel": "input",
+          "title": "优惠券适用范围名称",
+          "placeholder": "",
+          "value": "",
+          "isHidden": false
+        },
+        {
+          "name": "town",
+          "inputModel": "select",
+          "title": "优惠券类型",
+          "placeholder": "",
+          "options": [
+            {"value": "128大促","lable": "121"},
+            {"value": "130大促","lable": "12"}
+          ],
+          "value": [],
+          "isHidden": false
+        },
+        {
+          "name": "committees",
+          "inputModel": "select",
+          "title": "是否有效",
+          "placeholder": "",
+          "options": [
+            {"value": "128大促","lable": "121"},
+            {"value": "130大促","lable": "12"}
+          ],
+          "value": [],
+          "isHidden": ""
+        },
+        {
+          "name": "orderType",
+          "inputModel": "input",
+          "title": "创建人",
+          "placeholder": "",
+          "value": "",
+          "isHidden": false
+        },
+        {
+          "name": "payType",
+          "inputModel": "double-date-picker",
+          "title": "创建时间",
+          "placeholder": "",
+          "value": [],
+          "isHidden": false
+        }
+      ]
+    },
+      "page": {
+        "pageNo": 1,
+        "pageSize": 20,
+        "TotalRows": 0
+      }
+  }
+}

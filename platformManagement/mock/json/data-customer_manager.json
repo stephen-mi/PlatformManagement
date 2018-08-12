@@ -1,0 +1,95 @@
+{
+    "status": "0",
+    "data":{
+      "pageNo" : 1,
+      "pageSize": 20,
+      "totalPages": 2,
+      "totalRows": 19,
+      "data": [
+        {
+          "customerNO": "13344556677",
+          "userName": "张小花",
+          "mobile": "13344556677",
+          "openId": "zhangxiaohua",
+          "boundStore":"照明商店"
+		},
+		{
+			"customerNO": "13344556677",
+			"userName": "张小花",
+			"mobile": "13344556677",
+			"openId": "zhangxiaohua",
+			"boundStore":"照明商店"
+		},
+		{
+			"customerNO": "13344556677",
+			"userName": "张小花",
+			"mobile": "13344556677",
+			"openId": "zhangxiaohua",
+			"boundStore":"照明商店"
+		},
+		{
+			"customerNO": "13344556677",
+			"userName": "张小花",
+			"mobile": "13344556677",
+			"openId": "zhangxiaohua",
+			"boundStore":"照明商店"
+		},
+		{
+			"customerNO": "13344556677",
+			"userName": "张小花",
+			"mobile": "13344556677",
+			"openId": "zhangxiaohua",
+			"boundStore":"照明商店"
+		},
+		{
+			"customerNO": "13344556677",
+			"userName": "张小花",
+			"mobile": "13344556677",
+			"openId": "zhangxiaohua",
+			"boundStore":"照明商店"
+		},
+		{
+			"customerNO": "13344556677",
+			"userName": "张小花",
+			"mobile": "13344556677",
+			"openId": "zhangxiaohua",
+			"boundStore":"照明商店"
+		},
+		{
+			"customerNO": "13344556677",
+			"userName": "张小花",
+			"mobile": "13344556677",
+			"openId": "zhangxiaohua",
+			"boundStore":"照明商店"
+		},
+		{
+			"customerNO": "13344556677",
+			"userName": "张小花",
+			"mobile": "13344556677",
+			"openId": "zhangxiaohua",
+			"boundStore":"照明商店"
+		},
+		{
+			"customerNO": "13344556677",
+			"userName": "张小花",
+			"mobile": "13344556677",
+			"openId": "zhangxiaohua",
+			"boundStore":"照明商店"
+		},
+		{
+			"customerNO": "13344556677",
+			"userName": "张小花",
+			"mobile": "13344556677",
+			"openId": "zhangxiaohua",
+			"boundStore":"照明商店"
+		},
+		{
+			"customerNO": "13344556677",
+			"userName": "张小花",
+			"mobile": "13344556677",
+			"openId": "zhangxiaohua",
+			"boundStore":"照明商店"
+		}
+      ]
+    }
+  }

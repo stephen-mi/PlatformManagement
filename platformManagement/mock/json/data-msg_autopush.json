@@ -1,0 +1,62 @@
+{
+	"status": "0",
+	"data":{
+	  "pageNo" : 1,
+	  "pageSize": 20,
+	  "totalPages": 2,
+	  "totalRows": 19,
+	  "data": [
+		{
+			"triggerTerm": "用户下单",
+			"msgDetails": "您有一笔新的订单，请及时处理",
+			"pushRole": "门店"
+		},
+		{
+			"triggerTerm": "用户下单",
+			"msgDetails": "您有一笔新的订单，请及时处理",
+			"pushRole": "门店"
+		},
+		{
+			"triggerTerm": "用户下单",
+			"msgDetails": "您有一笔新的订单，请及时处理",
+			"pushRole": "门店"
+		},
+		{
+			"triggerTerm": "用户下单",
+			"msgDetails": "您有一笔新的订单，请及时处理",
+			"pushRole": "门店"
+		},
+		{
+			"triggerTerm": "用户下单",
+			"msgDetails": "您有一笔新的订单，请及时处理",
+			"pushRole": "门店"
+		},
+		{
+			"triggerTerm": "用户下单",
+			"msgDetails": "您有一笔新的订单，请及时处理",
+			"pushRole": "门店"
+		},
+		{
+			"triggerTerm": "用户下单",
+			"msgDetails": "您有一笔新的订单，请及时处理",
+			"pushRole": "门店"
+		},
+		{
+			"triggerTerm": "用户下单",
+			"msgDetails": "您有一笔新的订单，请及时处理",
+			"pushRole": "门店"
+		},
+		{
+			"triggerTerm": "用户下单",
+			"msgDetails": "您有一笔新的订单，请及时处理",
+			"pushRole": "门店"
+		},
+		{
+			"triggerTerm": "用户下单",
+			"msgDetails": "您有一笔新的订单，请及时处理",
+			"pushRole": "门店"
+		}
+	  ]
+	}
+  }
+  

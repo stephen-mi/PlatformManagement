@@ -1,0 +1,39 @@
+{
+  "status": "0",
+  "data":{
+    "pageNo" : 1,
+    "pageSize": 20,
+    "totalPages": 2,
+    "totalRows": 19,
+    "data": [
+      {
+        "customerId": "1dasdsadsa0",
+        "customerName": "系统运营管理组"
+      },
+      {
+        "customerId": "1dasdsadsa0",
+        "customerName": "系统运营管理组"
+      },
+      {
+        "customerId": "1dasdsadsa0",
+        "customerName": "系统运营管理组"
+      },
+      {
+        "customerId": "1dasdsadsa0",
+        "customerName": "系统运营管理组"
+      },
+      {
+        "customerId": "1dasdsadsa0",
+        "customerName": "系统运营管理组"
+      },
+      {
+        "customerId": "1dasdsadsa0",
+        "customerName": "系统运营管理组"
+      },
+      {
+        "customerId": "1dasdsadsa0",
+        "customerName": "系统运营管理组"
+      }
+    ]
+  }
+}

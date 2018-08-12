@@ -1,0 +1,104 @@
+{
+    "status": "0",
+    "data":{
+      "pageNo" : 1,
+      "pageSize": 20,
+      "totalPages": 2,
+      "totalRows": 19,
+      "data": [
+        {
+          "prodPer": "10",
+          "prodBrand": "系统运营管理组",
+          "prodType": "商品管理、门店管理、顾客管理、订单管理、财务管理、促销管理、消息管理、系统管理",
+          "creatTime": "2018-3-1",
+          "updateTime": "系统",
+          "attribute1": "1",
+          "attribute2":"2",
+          "attribute3":"3"
+        },
+        {
+          "prodPer": "10",
+          "prodBrand": "系统运营管理组",
+          "prodType": "商品管理、门店管理、顾客管理、订单管理、财务管理、促销管理、消息管理、系统管理",
+          "creatTime": "2018-3-1",
+          "updateTime": "2018-4-1",
+          "attribute1": "1",
+          "attribute2":"2",
+          "attribute3":"3"
+        },{
+          "prodPer": "10",
+          "prodBrand": "系统运营管理组",
+          "prodType": "商品管理、门店管理、顾客管理、订单管理、财务管理、促销管理、消息管理、系统管理",
+          "creatTime": "2018-3-1",
+          "updateTime": "2018-4-1",
+          "attribute1": "1",
+          "attribute2":"2",
+          "attribute3":"3"
+        },{
+          "prodPer": "10",
+          "prodBrand": "系统运营管理组",
+          "prodType": "商品管理、门店管理、顾客管理、订单管理、财务管理、促销管理、消息管理、系统管理",
+          "creatTime": "2018-3-1",
+          "updateTime": "2018-4-1",
+          "attribute1": "1",
+          "attribute2":"2",
+          "attribute3":"3"
+        },{
+          "prodPer": "10",
+          "prodBrand": "系统运营管理组",
+          "prodType": "商品管理、门店管理、顾客管理、订单管理、财务管理、促销管理、消息管理、系统管理",
+          "creatTime": "2018-3-1",
+          "updateTime": "2018-4-1",
+          "attribute1": "1",
+          "attribute2":"2",
+          "attribute3":"3"
+        },{
+          "prodPer": "10",
+          "prodBrand": "系统运营管理组",
+          "prodType": "商品管理、门店管理、顾客管理、订单管理、财务管理、促销管理、消息管理、系统管理",
+          "creatTime": "2018-3-1",
+          "updateTime": "2018-4-1",
+          "attribute1": "1",
+          "attribute2":"2",
+          "attribute3":"3"
+        },{
+          "prodPer": "10",
+          "prodBrand": "系统运营管理组",
+          "prodType": "商品管理、门店管理、顾客管理、订单管理、财务管理、促销管理、消息管理、系统管理",
+          "creatTime": "2018-3-1",
+          "updateTime": "2018-4-1",
+          "attribute1": "1",
+          "attribute2":"2",
+          "attribute3":"3"
+        },{
+            "prodPer": "10",
+            "prodBrand": "系统运营管理组",
+            "prodType": "商品管理、门店管理、顾客管理、订单管理、财务管理、促销管理、消息管理、系统管理",
+            "creatTime": "2018-3-1",
+            "updateTime": "2018-4-1",
+            "attribute1": "1",
+            "attribute2":"2",
+            "attribute3":"3"
+          },{
+            "prodPer": "10",
+            "prodBrand": "系统运营管理组",
+            "prodType": "商品管理、门店管理、顾客管理、订单管理、财务管理、促销管理、消息管理、系统管理",
+            "creatTime": "2018-3-1",
+            "updateTime": "2018-4-1",
+            "attribute1": "1",
+            "attribute2":"2",
+            "attribute3":"3"
+          },{
+            "prodPer": "10",
+            "prodBrand": "系统运营管理组",
+            "prodType": "商品管理、门店管理、顾客管理、订单管理、财务管理、促销管理、消息管理、系统管理",
+            "creatTime": "2018-3-1",
+            "updateTime": "2018-4-1",
+            "attribute1": "1",
+            "attribute2":"2",
+            "attribute3":"3"
+          }
+      ]
+    }
+  }
+  

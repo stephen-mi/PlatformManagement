@@ -1,0 +1,8 @@
+{
+  "mode": [
+    "alignment"
+  ],
+  "compress": true,
+  "buildSourceMap": false,
+  "cdn": false
+}

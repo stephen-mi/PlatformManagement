@@ -1,0 +1,113 @@
+{
+    "status": "0",
+    "data": {
+      "meta": {
+        "code": "sys_code",
+        "title": "成员管理",
+        "buttons":[
+          {
+            "name": "新增",
+            "icon": null,
+            "event": {
+              "type": "add",
+              "url": "/form/sys_code",
+              "callBack": {
+  
+              }
+            }
+          },
+          {
+            "name": "查询",
+            "icon": null,
+            "event": {
+              "type": "submit",
+              "url": "/from/sys_code/submit"
+            }
+          }
+        ],
+        "columns": [
+          {
+            "type": "index",
+            "name": "",
+            "title": "序号",
+            "aglign": "center",
+            "width": "50",
+            "fixed": "left"
+          },
+          {
+            "name": "prodPer",
+            "title": "成员姓名"
+          },
+          {
+            "name": "prodBrand",
+            "title": "成员账号"
+          },
+          {
+            "name": "prodType",
+            "title": "手机号"
+          },
+          {
+            "name": "team",
+            "title": "所在权限组"
+          },
+          {
+           "name": "",
+            "title": "操作",
+            "type": "button",
+            "buttons": [
+              {
+                "name": "编辑",
+                "icon": null,
+                "event": {
+                  "type": "router",
+                  "params": ["prodPer","prodBrand"],
+                  "url": "/form/sys_code"
+                }
+              },
+              {
+                "name": "删除",
+                "icon": null,
+                "event": {
+                  "type": "ajax",
+                  "params": ["prodPer","prodBrand"],
+                  "url": "/report/delete/sys_code"
+                }
+              }
+            ]
+          }
+        ],
+        "params": [
+          {
+            "name": "productName",
+            "inputModel": "1",
+            "title": "成员姓名",
+            "value": "",
+            "placeholder":"请输入成员姓名",
+            "isHidden": false
+          },
+          {
+            "name": "prodPer",
+            "inputModel": "1",
+            "title": "成员手机号",
+            "placeholder":"请输入成员手机号",
+            "value": "",
+            "isHidden": false
+          },
+          {
+            "name": "prodBrand",
+            "inputModel": "1",
+            "title": "成员权限组",
+            "placeholder":"请输入成员权限组",
+            "value": "",
+            "isHidden": false
+          }
+        ]
+      },
+      "page": {
+        "pageNo": 1,
+        "pageSize": 20,
+        "TotalRows": 0
+      }
+    }
+  }
+  

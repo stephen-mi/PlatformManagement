@@ -1,0 +1,82 @@
+{
+  "status": "0",
+  "data": {
+    "meta": {
+      "code":"user_manager_code",
+      "id": "user_manager_code",
+      "type": "base-form",
+      "title": "人员新增",
+      "buttons":[
+        {
+          "name": "保存",
+          "icon": null,
+          "event": {
+            "type": "submit",
+            "url": "/form/user_manager_code",
+            "callback": {
+              "refresh": false
+            }
+          }
+        },
+        {
+          "name": "取消",
+          "icon": null,
+          "event": {
+            "type": "cancel",
+            "callback": {
+              "refresh": true
+            }
+          }
+        }
+      ],
+      "items": [
+        {
+          "name": "userName",
+          "inputModel": "1",
+          "title": "姓名",
+          "value": "",
+          "placeholder":"请输入姓名",
+          "isHidden": false
+        },
+        {
+          "name": "userCode",
+          "inputModel": "1",
+          "title": "帐号",
+          "value": "",
+          "placeholder":"请输入帐号",
+          "isHidden": false
+        },
+        {
+          "name": "mobile",
+          "inputModel": "1",
+          "title": "手机号",
+          "value": "",
+          "placeholder":"请输入手机号",
+          "isHidden": false
+        },
+        {
+          "name": "permissions",
+          "inputModel": "3",
+          "title": "权限组",
+          "value": "",
+          "placeholder":"请选择权限组",
+          "isHidden": false,
+          "options": [
+            {
+              "value": 1,
+              "label": "可口可乐"
+            },
+            {
+              "value": 2,
+              "label": "康师傅"
+            },
+            {
+              "value": 3,
+              "label": "脉动"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

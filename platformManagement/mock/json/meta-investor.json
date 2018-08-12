@@ -1,0 +1,67 @@
+{
+  "status": "0",
+  "data": {
+    "meta": {
+      "type":"report",
+      "code": "investor",
+      "path": "/report/data/investor",
+      "title": "选择出资方规则",
+      "buttons": [
+        {
+          "name": "搜索",
+          "icon": null,
+          "event": {
+            "type": "submit",
+            "url": "/form/customer/submit"
+          }
+        }
+      ],
+      "columns": [
+        {
+          "name": "typeinput",
+          "title": "",
+          "type": "selection"
+        },
+        {
+          "type": "index",
+          "name": "",
+          "title": "序号",
+          "aglign": "center",
+          "width": "50",
+          "fixed": "left"
+        },
+        {
+          "name": "customerId",
+          "title": "出次方规则编码"
+        },
+        {
+          "name": "customerName",
+          "title": "出资方规则名称"
+        }
+      ],
+      "params": [
+        {
+          "name": "customerId",
+          "inputModel": "input",
+          "title": "出资方规则编码",
+          "value": "",
+          "placeholder": "",
+          "isHidden": false
+        },
+        {
+          "name": "customerName",
+          "inputModel": "input",
+          "title": "出资方规则名称",
+          "placeholder": "",
+          "value": "",
+          "isHidden": false
+        }
+      ]
+    },
+    "page": {
+      "pageNo": 1,
+      "pageSize": 20,
+      "TotalRows": 0
+    }
+  }
+}

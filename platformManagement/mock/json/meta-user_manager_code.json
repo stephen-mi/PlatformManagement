@@ -1,0 +1,168 @@
+{
+  "status": "0",
+  "data": {
+    "meta": {
+      "url": "/report/data/user_manager_code",
+      "type": "report",
+      "id":"sys_code",
+      "code": "sys_code",
+      "code": "user_manager_code",
+      "title": "用户管理",
+      "buttons": [
+        {
+          "name": "新增",
+          "icon": null,
+          "event": {
+            "type": "router",
+            "url": "/config/%2Fform%2Fmeta%2Fuser_manager_code",
+            "callBack": {
+            }
+          }
+        },
+        {
+          "name": "查询",
+          "icon": null,
+          "event": {
+            "type": "submit",
+            "url": "/from/user_manager_code/submit"
+          }
+        }
+      ],
+      "columns": [
+        {
+          "name": "created",
+          "title": "创建时间"
+        },
+        {
+          "name": "createdBy",
+          "title": "创建人"
+        },
+        {
+          "name": "id",
+          "title": "id"
+        },
+        {
+          "name": "mobile",
+          "title": "手机号码",
+          "sortable": true
+        },
+        {
+          "name": "password",
+          "title": "密码",
+          "sortable": true
+        },
+        {
+          "name": "ruleId",
+          "title": "角色id"
+        },
+        {
+          "name": "ruleName",
+          "title": "角色名"
+        },
+        {
+          "name": "status",
+          "title": "状态"
+        },
+        {
+          "name": "updated",
+          "title": "修改时间",
+          "sortable": true
+        },
+        {
+          "name": "updatedBy",
+          "title": "修改人"
+        },
+        {
+          "name": "userCode",
+          "title": "用户编码"
+        },
+        {
+          "name": "userName",
+          "title": "用户名"
+        },
+        {
+          "name": "",
+          "title": "操作",
+          "type": "button",
+          "buttons": [
+            {
+              "name": "编辑",
+              "icon": null,
+              "event": {
+                "type": "router",
+                "params": [
+                  "prodPer",
+                  "prodBrand"
+                ],
+                "url": "/config/2Fform%2Fmeta%2Fuser_manager_code"
+              }
+            },
+            {
+              "name": "删除",
+              "icon": null,
+              "event": {
+                "type": "ajax",
+                "confirm": {
+                  "title": "提示",
+                  "message": "此操作将会永久删除此条记录，是否继续 ?"
+                },
+                "params": [
+                  "prodPer",
+                  "prodBrand"
+                ],
+                "url": "/report/delete/user_manager_code"
+              }
+            }
+          ]
+        }
+      ],
+      "params": [
+        {
+          "name": "mobile",
+          "inputModel": "1",
+          "title": "手机号码",
+          "value": "",
+          "placeholder": "请输入手机号码",
+          "isHidden": false
+        },
+        {
+          "name": "ruleName",
+          "inputModel": "1",
+          "title": "角色名称",
+          "placeholder": "请输入角色名称",
+          "value": "",
+          "isHidden": false
+        },
+        {
+          "name": "userCode",
+          "inputModel": "1",
+          "title": "帐号",
+          "placeholder": "请输入帐号",
+          "value": "",
+          "isHidden": false
+        },
+        {
+          "name": "userId",
+          "inputModel": "1",
+          "title": "编号",
+          "placeholder": "请输入编号",
+          "value": "",
+          "isHidden": false
+        },
+        {
+          "name": "userName",
+          "inputModel": "1",
+          "title": "姓名",
+          "placeholder": "请输入姓名",
+          "value": "",
+          "isHidden": false
+        }
+      ]
+    },
+    "page": {
+      "pageNo": 1,
+      "pageSize": 20,
+      "TotalRows": 0
+    }
+  }
+}

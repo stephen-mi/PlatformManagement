@@ -1,0 +1,225 @@
+{
+    "status": "0",
+    "data": {
+      "meta": {
+        "type":"report",
+        "code": "order_manager_code",
+        "path": "/report/data/order_manager_code",
+        "title": "订单管理",
+        "buttons": [
+          {
+            "name": "搜索",
+            "icon": null,
+            "event": {
+              "type": "submit",
+              "configKey": "/from/order_manager_code/submit"
+            }
+          },
+          {
+            "name": "清空",
+            "icon": null,
+            "event": {
+              "type": "reset",
+              "url": ""
+            }
+          }
+        ],
+        "columns": [
+          {
+            "name": "orderNO",
+            "title": "订单编号"
+          },
+          {
+            "name": "orderUser",
+            "title": "下单用户"
+          },
+          {
+            "name": "userMobile",
+            "title": "用户电话"
+          },
+          {
+            "name": "orderStore",
+            "title": "下单商铺"
+          },
+          {
+            "name": "storeMobile",
+            "title": "商铺电话"
+          },
+          {
+            "name": "orderType",
+            "title": "订单类型"
+          },
+          {
+            "name": "orderTime",
+            "title": "下单时间"
+          },
+          {
+            "name": "goodsCounts",
+            "title": "商品数量"
+          },
+          {
+            "name": "orderAmount",
+            "title": "订单金额"
+          },
+          {
+            "name": "coupon",
+            "title": "使用优惠券"
+          },
+          {
+            "name": "preferentialAmount",
+            "title": "优惠金额"
+          },
+          {
+            "name": "payAmount",
+            "title": "实付金额"
+          },
+          {
+            "name": "orderStatus",
+            "title": "订单状态"
+          },
+          {
+            "name": "",
+            "title": "操作",
+            "type": "button",
+            "buttons": [
+              {
+                "name": "查看",
+                "icon": null,
+                "event": {
+                  "type": "router",
+                  "params": [
+                    "orderNO"
+                  ],
+                  "static": {
+                    "method": "update"
+                  },
+                  "url": "/details/index"
+                }
+              }
+            ]
+          }
+        ],
+        "params": [
+          {
+            "name": "orderNO",
+            "inputModel": "input",
+            "title": "订单编号",
+            "value": "88",
+            "placeholder": "",
+            "isHidden": false
+          },
+          {
+            "name": "orderUser",
+            "inputModel": "inputDia",
+            "title": "下单用户",
+            "placeholder": "",
+            "value": "",
+            "configKey": "/report/meta/customer",
+            "isHidden": false
+          },
+          {
+            "name": "orderStore",
+            "inputModel": "inputDia",
+            "title": "下单商铺",
+            "placeholder": "",
+            "value": "",
+            "configKey": "/report/meta/sys_code",
+            "isHidden": false
+          },
+          {
+            "name": "orderStore",
+            "inputModel": "inputDia",
+            "title": "下单区域",
+            "placeholder": "",
+            "value": "",
+            "configKey": "/report/meta/area",
+            "isHidden": false
+          },
+          {
+            "name": "orderType",
+            "inputModel": "select",
+            "title": "订单类型",
+            "placeholder": "请选择",
+            "value": "",
+            "options":[{
+              "value": "110000",
+              "label": "线上计价"
+            }, {
+              "value": "120000",
+              "label": "线下计价"
+            }],
+            "isHidden": false
+          },
+          {
+            "name": "orderStatus",
+            "inputModel": "select",
+            "title": "订单状态",
+            "placeholder": "请选择",
+            "value": "",
+            "options":[{
+              "value": "WC",
+              "label": "待确认"
+            }, {
+              "value": "PP",
+              "label": "待付款"
+            },{
+              "value": "WM",
+              "label": "待自提"
+            },{
+              "value": "AC",
+              "label": "已完成"
+            },{
+              "value": "RI",
+              "label": "退款中"
+            },{
+              "value": "HR",
+              "label": "已退款"
+            },{
+              "value": "HC",
+              "label": "已取消"
+            }],
+            "isHidden": false
+          },
+          {
+            "name": "useCoupon",
+            "inputModel": "select",
+            "title": "使用优惠券",
+            "placeholder": "请选择",
+            "value": "",
+            "options":[{
+              "value": "1",
+              "label": "是"
+            }, {
+              "value": "0",
+              "label": "否"
+            }],
+            "isHidden": false
+          },
+          {
+            "name": "orderTime",
+            "inputModel": "double-date-picker",
+            "title": "下单时间",
+            "rangeSeparator": "至",
+            "startPlaceholder": "开始日期",
+            "endPlaceholder": "结束日期",
+            "value": "",
+            "isHidden": false
+          },
+          {
+            "name": "orderMoney",
+            "inputModel": "range",
+            "title": "下单金额",
+            "placeholder": "",
+            "value": "",
+            "step": 0.01,
+            "isHidden": false
+          }
+        ]
+      },
+      "page": {
+        "pageNo": 1,
+        "pageSize": 20,
+        "TotalRows": 0
+      }
+    }
+  }

@@ -1,0 +1,76 @@
+{
+  "status": "0",
+  "data":{
+    "pageNo" : 1,
+    "pageSize": 20,
+    "totalPages": 2,
+    "totalRows": 19,
+    "data": [
+      {
+        "prodPer": "10",
+        "prodBrand": "可口可乐",
+        "prodType": "饮料",
+        "creatTime": "2018-3-1",
+        "updateTime": "2018-4-1",
+        "attribute1": "1",
+        "attribute2":"2",
+        "attribute3":"3"
+      },
+      {
+        "prodPer": "10",
+        "prodBrand": "可口可乐",
+        "prodType": "饮料",
+        "creatTime": "2018-3-1",
+        "updateTime": "2018-4-1",
+        "attribute1": "1",
+        "attribute2":"2",
+        "attribute3":"3"
+      },{
+        "prodPer": "10",
+        "prodBrand": "可口可乐",
+        "prodType": "饮料",
+        "creatTime": "2018-3-1",
+        "updateTime": "2018-4-1",
+        "attribute1": "1",
+        "attribute2":"2",
+        "attribute3":"3"
+      },{
+        "prodPer": "10",
+        "prodBrand": "可口可乐",
+        "prodType": "饮料",
+        "creatTime": "2018-3-1",
+        "updateTime": "2018-4-1",
+        "attribute1": "1",
+        "attribute2":"2",
+        "attribute3":"3"
+      },{
+        "prodPer": "10",
+        "prodBrand": "可口可乐",
+        "prodType": "饮料",
+        "creatTime": "2018-3-1",
+        "updateTime": "2018-4-1",
+        "attribute1": "1",
+        "attribute2":"2",
+        "attribute3":"3"
+      },{
+        "prodPer": "10",
+        "prodBrand": "可口可乐",
+        "prodType": "饮料",
+        "creatTime": "2018-3-1",
+        "updateTime": "2018-4-1",
+        "attribute1": "1",
+        "attribute2":"2",
+        "attribute3":"3"
+      },{
+        "prodPer": "10",
+        "prodBrand": "可口可乐",
+        "prodType": "饮料",
+        "creatTime": "2018-3-1",
+        "updateTime": "2018-4-1",
+        "attribute1": "1",
+        "attribute2":"2",
+        "attribute3":"3"
+      }
+    ]
+  }
+}

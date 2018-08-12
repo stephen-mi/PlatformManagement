@@ -1,0 +1,34 @@
+
+{
+	"status": "0",
+	"data": {
+	  "meta": {
+		"url": "/report/data/msg_autopush",
+		"type": "report",
+      	"id":"msg-autopush",
+		"code": "msg-autopush",
+		"title": "自动推送消息",
+		"columns": [
+			{
+			  "name": "triggerTerm",
+			  "title": "触发条件"
+			},
+			{
+			  "name": "msgDetails",
+			  "title": "消息详情",
+			  "aglign": "center"
+			},
+			{
+			  "name": "pushRole",
+			  "title": "推送角色"
+			}
+		],
+		"params": []
+	  },
+	  "page": {
+		"pageNo": 1,
+		"pageSize": 20,
+		"TotalRows": 0
+	  }
+	}
+  } 

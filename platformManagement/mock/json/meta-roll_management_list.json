@@ -1,0 +1,222 @@
+{
+  "status":"0",
+  "data":{
+      "meta":{
+          "code":"roll_management_list",
+          "title":"优惠券领券管理列表",
+          "url": "/report/data/roll_management_list",
+          "type": "report",
+          "id":"sys_code",
+          "buttons":[
+              {
+                  "name":"添加",
+                  "icon":null,
+                  "event":{
+                      "type":"router",
+                      "params":["111"],
+                      "url":"../promotion/addtemplate"
+                  }
+              },{
+                  "name":"查询",
+                  "icon":null,
+                  "event":{
+                      "type":"submit",
+                      "url":""
+                  }
+              },
+              {
+                "name":"重置",
+                "icon":null,
+                "event":{
+                    "type":"submit",
+                    "url":""
+                }
+            }
+          ],
+          "columns":[
+            {
+              "type": "index",
+              "name": "",
+              "title": "序号",
+              "aglign": "center",
+              "width": "50",
+              "fixed": "left"
+            },
+             {
+                 "name":"",
+                 "title":"操作",
+                 "type":"button",
+                 "buttons":[
+                     {
+                         "name":"编辑",
+                         "icon":null,
+                         "event":{
+                             "type":"router",
+                             "params":["storeCode"],
+                              "url":""
+                         }
+                     },{
+                         "name":"查看",
+                          "icon":null,
+                          "event":{
+                              "type":"router",
+                              "params":["storeCode"],
+                              "url":""
+                          }
+                     },
+                     {
+                      "name":"复用",
+                       "icon":null,
+                       "event":{
+                           "type":"router",
+                           "params":["storeCode"],
+                           "url":""
+                       }
+                  }
+                 ]
+             },
+             {
+                 "name":"status",
+                 "title":"领券活动编码"
+             },{
+                 "name":"storeCode",
+                 "title":"领券活动名称"
+             },{
+                 "name":"storeAccout",
+                 "type": "goRouter",
+                 "title":"引用数量"
+             },{
+                 "name":"storeName",
+                 "type": "alertconten",
+                 "title":"配置可领券小店数量"
+             },{
+                 "name":"province",
+                 "title":"优惠券数量的限制方式"
+             },{
+                 "name":"city",
+                 "title":"优惠券数量的限制数量"
+             },{
+                 "name":"village",
+                 "title":"己领取数量"
+             },{
+              "name":"a",
+              "title":"己使用数量"
+            },{
+                "name":"b",
+                "title":"己撤销优惠券数量"
+            },{
+                "name":"c",
+                "title":"活动开始时间"
+            },{
+                "name":"d",
+                "title":"活动结束时间"
+            },{
+                "name":"e",
+                "title":"优惠券有效期开始时间"
+            },{
+                "name":"f",
+                "title":"优惠券有效期结束时间"
+            },{
+                "name":"g",
+                "title":"创建人"
+            },{
+              "name":"h",
+              "title":"创建时间"
+            },{
+                "name":"j",
+                "title":"修改人"
+            },{
+                "name":"k",
+                "title":"修改时间"
+            }
+          ],
+      "params": [
+        {
+          "name": "orderNO",
+          "inputModel": "1",
+          "title": "领券活动编码",
+          "value": "",
+          "placeholder": "",
+          "isHidden": false
+        },
+        {
+          "name": "orderUser",
+          "inputModel": "1",
+          "title": "领券活动名称",
+          "placeholder": "",
+          "value": "",
+          "isHidden": false
+        },
+        {
+          "name": "userMobile",
+          "inputModel": "1",
+          "title": "优惠券编码",
+          "placeholder": "请选择",
+          "value": "",
+          "isHidden": false
+        },
+        {
+          "name": "orderUser",
+          "inputModel": "1",
+          "title": "惠小店编码",
+          "placeholder": "",
+          "value": "",
+          "isHidden": false
+        },
+        {
+          "name": "userMobile",
+          "inputModel": "1",
+          "title": "惠小店名称",
+          "placeholder": "请选择",
+          "value": [],
+          "isHidden": false
+        },
+        {
+          "name": "numberlimit",
+          "inputModel": "3",
+          "title": "发放优惠券数量的限制",
+          "placeholder": "",
+          "options": [
+            {"value": "128大促","lable": "121"},
+            {"value": "130大促","lable": "12"}
+          ],
+          "value": "",
+          "isHidden": false
+        },
+        {
+          "name": "numberlimit",
+          "inputModel": "3",
+          "title": "C端用户领券限制",
+          "placeholder": "",
+          "options": [
+            {"value": "128大促","lable": "121"},
+            {"value": "130大促","lable": "12"}
+          ],
+          "value": "",
+          "isHidden": false
+        },
+        {
+          "name": "userMobile",
+          "inputModel": "1",
+          "title": "创建人",
+          "placeholder": "请选择",
+          "value": "",
+          "isHidden": false
+        },
+        {
+          "name": "userMobile",
+          "inputModel": "7",
+          "title": "创建时间",
+          "placeholder": "请选择",
+          "value": "",
+          "isHidden": false
+        }
+      ]
+    },
+      "page": {
+        "pageNo": 1,
+        "pageSize": 20,
+        "TotalRows": 0
+      }
+  }
+}

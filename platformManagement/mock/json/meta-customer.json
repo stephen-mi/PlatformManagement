@@ -1,0 +1,83 @@
+{
+    "status": "0",
+    "data": {
+      "meta": {
+        "type":"report",
+        "code": "customer",
+        "path": "/report/data/customer",
+        "title": "顾客管理",
+        "buttons": [
+          {
+            "name": "搜索",
+            "icon": null,
+            "event": {
+              "type": "submit",
+              "path": "/form/customer/submit"
+            }
+          }
+        ],
+        "columns": [
+          {
+            "name": "",
+            "title": "选择",
+            "type": "radio",
+            "buttons": [
+              {
+                "name": "1",
+                "icon": null,
+                "event": {
+                  "type": "router",
+                  "params": [
+                    "customeId"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "name": "customerId",
+            "title": "顾客编码"
+          },
+          {
+            "name": "customerName",
+            "title": "顾客姓名"
+          },
+          {
+            "name": "mobile",
+            "title": "手机"
+          }
+        ],
+        "params": [
+          {
+            "name": "customerId",
+            "inputModel": "input",
+            "title": "顾客编码",
+            "value": "",
+            "placeholder": "",
+            "isHidden": false
+          },
+          {
+            "name": "customerName",
+            "inputModel": "input",
+            "title": "顾客姓名",
+            "placeholder": "",
+            "value": "",
+            "isHidden": false
+          },
+          {
+            "name": "mobile",
+            "inputModel": "input",
+            "title": "手机",
+            "placeholder": "",
+            "value": "",
+            "isHidden": false
+          }
+        ]
+      },
+      "page": {
+        "pageNo": 1,
+        "pageSize": 20,
+        "TotalRows": 0
+      }
+    }
+  }

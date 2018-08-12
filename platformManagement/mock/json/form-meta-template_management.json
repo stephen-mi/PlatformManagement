@@ -1,0 +1,133 @@
+{
+  "status": "0",
+  "data": {
+    "meta": {
+      "title": "模板管理",
+      "buttons":[
+        {
+          "name": "提交",
+          "icon": null,
+          "event": {
+            "type": "ajax",
+            "url": "/form/user_manager_code",
+            "callback": {
+              "refresh": false
+            }
+          }
+        },
+        {
+          "name": "返回",
+          "icon": null,
+          "event": {
+            "type": "cancel",
+            "callback": {
+              "refresh": true
+            }
+          }
+        }
+      ],
+      "items": [
+        {
+          "name": "userName",
+          "inputModel": "1",
+          "title": "优惠券标题",
+          "value": "",
+          "placeholder":"满意100减1",
+          "isHidden": false
+        },
+        {
+          "name": "userCode",
+          "inputModel": "1",
+          "title": "优惠券说明",
+          "value": "",
+          "placeholder":"",
+          "isHidden": false
+        },
+        {
+          "name": "mobile",
+          "inputModel": "2",
+          "title": "优惠劵详细说明",
+          "value": "",
+          "placeholder":"",
+          "isHidden": false
+        },
+        {
+          "name": "userCode",
+          "inputModel": "1",
+          "title": "出资方规则名称",
+          "value": "",
+          "placeholder":"",
+          "isHidden": false
+        },
+        {
+          "name": "userCode",
+          "inputModel": "1",
+          "title": "优惠券使用规则名称",
+          "value": "",
+          "placeholder":"",
+          "isHidden": false
+        },
+        {
+          "name": "userCode",
+          "inputModel": "1",
+          "title": "优惠券适用范围规则名称",
+          "value": "",
+          "placeholder":"",
+          "isHidden": false
+        },
+        {
+          "name": "userCode",
+          "inputModel": "1",
+          "title": "优惠券适用对象规则名称",
+          "value": "",
+          "placeholder":"",
+          "isHidden": false
+        },
+        {
+          "name": "permissions",
+          "inputModel": "3",
+          "title": "优惠券所属类别",
+          "value": "",
+          "placeholder":"请选择",
+          "isHidden": false,
+          "options": [
+            {
+              "value": 1,
+              "label": "可口可乐"
+            },
+            {
+              "value": 2,
+              "label": "康师傅"
+            },
+            {
+              "value": 3,
+              "label": "脉动"
+            }
+          ]
+        },
+        {
+          "name": "permissions",
+          "inputModel": "3",
+          "title": "优惠券金额计算方式",
+          "value": "",
+          "placeholder":"请选择",
+          "isHidden": false,
+          "options": [
+            {
+              "value": 1,
+              "label": "可口可乐"
+            },
+            {
+              "value": 2,
+              "label": "康师傅"
+            },
+            {
+              "value": 3,
+              "label": "脉动"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

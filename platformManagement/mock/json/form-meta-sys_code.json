@@ -1,0 +1,185 @@
+{
+  "status": "0",
+  "data": {
+    "meta": {
+      "type": "base-form",
+      "path": "",
+      "id":"sys_code",
+      "title": "测试新增",
+      "buttons":[
+        {
+          "name": "保存",
+          "icon": null,
+          "event": {
+            "type": "submit",
+            "path": "/form/sys_code",
+            "callback": {
+              "refresh": false
+            }
+          }
+        },
+        {
+          "name": "取消",
+          "icon": null,
+          "event": {
+            "type": "cancel",
+            "callback": {
+              "refresh": true
+            }
+          }
+        }
+      ],
+      "items": [
+        {
+          "name": "productName",
+          "inputModel": "input",
+          "title": "产品名称",
+          "value": "",
+          "placeholder":"请输入产品名称",
+          "isHidden": false,
+          "vaildate": {
+            "maxLength": 20,
+            "minLength": 4,
+            "required": true,
+            "regex": "",
+            "compare": "function() { return {${firstName} === ${secodeValue} }}"
+          }
+        },
+        {
+          "name": "prodPer",
+          "inputModel": "input",
+          "title": "产品单价",
+          "value": "",
+          "placeholder":"请输入产品单价",
+          "isHidden": false
+        },
+        {
+          "name": "prodBrand",
+          "inputModel": "select",
+          "title": "产品品牌",
+          "value": "",
+          "placeholder":"请选择产品品牌",
+          "url":"",
+          "isHidden": false,
+          "options": [
+            {
+              "value": 1,
+              "label": "可口可乐"
+            },
+            {
+              "value": 2,
+              "label": "康师傅"
+            },
+            {
+              "value": 3,
+              "label": "脉动"
+            },
+            {
+              "value": 4,
+              "label": 4
+            }
+          ]
+        },
+        {
+          "name": "immidately",
+          "inputModel": "switch",
+          "title": "立即配送",
+          "value": false
+        },
+        {
+          "name": "activeType",
+          "inputModel": "checkbox",
+          "title": "活动性质",
+          "value": [],
+          "isHidden": false,
+          "options": [
+            {
+              "value": 1,
+              "label": "美食/餐厅线上活动"
+            },
+            {
+              "value": 2,
+              "label": "地推活动"
+            },
+            {
+              "value": 3,
+              "label": "线下主题活动"
+            },
+            {
+              "value": 4,
+              "label": "单纯品牌曝光"
+            }
+          ]
+        },
+        {
+          "name": "activeDate",
+          "inputModel": "single-date-picker",
+          "title": "活动时间",
+          "value": "",
+          "isHidden": false
+        },
+        {
+          "name": "activeDateRange",
+          "inputModel": "double-date-picker",
+          "title": "活动时间范围",
+          "value": [],
+          "isHidden": false
+        },
+        {
+          "name": "area",
+          "inputModel": "common-tree",
+          "title": "所属地域",
+          "placeholder":"请选择所属地域",
+          "path":"/tree",
+          "baseParams": {
+            "id": 1
+          },
+          "params": [
+            "id"
+          ],
+          "value": "",
+          "isHidden": false
+        },
+        {
+          "name": "counts",
+          "inputModel": "range",
+          "title": "下单次数",
+          "value": [],
+          "isHidden": false
+        },
+        {
+          "name": "attribute1",
+          "inputModel": "text",
+          "title": "属性1",
+          "value": "",
+          "placeholder":"请输入属性1",
+          "isHidden": false
+        },
+        {
+          "name": "attribute2",
+          "inputModel": "text",
+          "title": "属性2",
+          "value": "",
+          "placeholder":"请输入属性2",
+          "isHidden": false
+        },
+        {
+          "name": "attribute3",
+          "inputModel": "text",
+          "title": "属性3",
+          "value": "",
+          "placeholder":"请输入属性3",
+          "isHidden": false
+        },
+        {
+          "name": "attribute3",
+          "inputModel": "inputDia",
+          "title": "属性3",
+          "value": "/report/meta/sys_code",
+          "placeholder":"请输入属性3",
+          "isHidden": false
+        }
+      ]
+    }
+  }
+}

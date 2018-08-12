@@ -1,0 +1,179 @@
+{
+  "status":"0",
+  "data":{
+      "meta":{
+          "code":"pull_securities_list",
+          "title":"优惠券推券管理表",
+          "url": "/report/data/pull_securities_list",
+          "type": "report",
+          "id":"sys_code",
+          "buttons":[
+              {
+                  "name":"添加",
+                  "icon":null,
+                  "event":{
+                      "type":"router",
+                      "params":["111"],
+                      "url":"../promotion/addtemplate"
+                  }
+              },{
+                  "name":"查询",
+                  "icon":null,
+                  "event":{
+                      "type":"submit",
+                      "url":""
+                  }
+              },
+              {
+                "name":"重置",
+                "icon":null,
+                "event":{
+                    "type":"submit",
+                    "url":""
+                }
+            }
+          ],
+          "columns":[
+            {
+              "type": "index",
+              "name": "",
+              "title": "序号",
+              "aglign": "center",
+              "width": "50",
+              "fixed": "left"
+            },
+             {
+                 "name":"",
+                 "title":"操作",
+                 "type":"button",
+                 "buttons":[
+                     {
+                         "name":"编辑",
+                         "icon":null,
+                         "event":{
+                             "type":"router",
+                             "params":["storeCode"],
+                              "url":""
+                         }
+                     },{
+                         "name":"查看",
+                          "icon":null,
+                          "event":{
+                              "type":"router",
+                              "params":["storeCode"],
+                              "url":""
+                          }
+                     },
+                     {
+                      "name":"复用",
+                       "icon":null,
+                       "event":{
+                           "type":"router",
+                           "params":["storeCode"],
+                           "url":""
+                       }
+                  }
+                 ]
+             },
+             {
+                 "name":"status",
+                 "title":"领券活动编码"
+             },{
+                 "name":"storeCode",
+                 "title":"领券活动名称"
+             },{
+                 "name":"storeAccout",
+                 "title":"引用数量"
+             },{
+                 "name":"storeName",
+                 "title":"己领取数量"
+             },{
+                 "name":"province",
+                 "title":"己使用数量"
+             },{
+                 "name":"city",
+                 "title":"己撤销优惠券数量"
+             },{
+                 "name":"county",
+                 "title":"活动开始时间"
+             },{
+                 "name":"town",
+                 "title":"活动结束时间"
+             },{
+                 "name":"village",
+                 "title":"优惠券有效期开始时间"
+             },{
+              "name":"a",
+              "title":"优惠券有效期结束时间"
+            },{
+                "name":"b",
+                "title":"创建人"
+            },{
+                "name":"c",
+                "title":"创建时间"
+            },{
+                "name":"d",
+                "title":"修改人"
+            },{
+                "name":"e",
+                "title":"修改时间"
+            }
+          ],
+      "params": [
+        {
+          "name": "orderNO",
+          "inputModel": "1",
+          "title": "推券活动编码",
+          "value": "",
+          "placeholder": "",
+          "isHidden": false
+        },
+        {
+          "name": "orderUser",
+          "inputModel": "1",
+          "title": "推券活动名称",
+          "placeholder": "",
+          "value": "",
+          "isHidden": false
+        },
+        {
+          "name": "userMobile",
+          "inputModel": "1",
+          "title": "优惠券编码",
+          "placeholder": "请选择",
+          "value": [],
+          "isHidden": false
+        },
+        {
+          "name": "orderUser",
+          "inputModel": "1",
+          "title": "C端用户手机号",
+          "placeholder": "",
+          "value": "",
+          "isHidden": false
+        },
+        {
+          "name": "userMobile",
+          "inputModel": "1",
+          "title": "创建人",
+          "placeholder": "请选择",
+          "value": [],
+          "isHidden": false
+        },
+        {
+          "name": "userMobile",
+          "inputModel": "7",
+          "title": "创建时间",
+          "placeholder": "请选择",
+          "value": [],
+          "isHidden": false
+        }
+      ]
+    },
+      "page": {
+        "pageNo": 1,
+        "pageSize": 20,
+        "TotalRows": 0
+      }
+  }
+}

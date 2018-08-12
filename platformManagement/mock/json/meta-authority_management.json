@@ -1,0 +1,96 @@
+{
+    "status": "0",
+    "data": {
+      "meta": {
+        "code": "sys_code",
+        "title": "权限管理",
+        "url": "/report/data/authority_management",
+        "type": "report",
+        "buttons":[
+          {
+            "name": "新增",
+            "icon": null,
+            "event": {
+              "type": "router",
+              "url": "/authorization/index",
+              "callBack": {
+
+              }
+            }
+          },
+          {
+            "name": "查询",
+            "icon": null,
+            "event": {
+              "type": "submit",
+              "url": "/from/sys_code/submit"
+            }
+          }
+        ],
+        "columns": [
+          {
+            "type": "index",
+            "name": "",
+            "title": "序号",
+            "aglign": "center",
+            "width": "50",
+            "fixed": "left"
+          },
+          {
+            "name": "prodBrand",
+            "title": "权限组名",
+            "sortable": true
+          },
+          {
+            "name": "prodType",
+            "title": "权限范围",
+            "sortable": true
+          },
+          {
+            "name": "attribute3",
+            "title": "组内人数"
+          },
+          {
+           "name": "",
+            "title": "操作",
+            "type": "button",
+            "buttons": [
+              {
+                "name": "编辑",
+                "icon": null,
+                "event": {
+                  "type": "router",
+                  "params": ["prodPer","prodBrand"],
+                  "url": "/authorization/index"
+                }
+              },
+              {
+                "name": "删除",
+                "icon": null,
+                "event": {
+                  "type": "ajax",
+                  "params": ["prodPer","prodBrand"],
+                  "url": "/report/delete/sys_code"
+                }
+              }
+            ]
+          }
+        ],
+        "params": [
+          {
+            "name": "productName",
+            "inputModel": "1",
+            "title": "权限组名",
+            "value": "",
+            "placeholder":"请输入权限组名",
+            "isHidden": false
+          }
+        ]
+      },
+      "page": {
+        "pageNo": 1,
+        "pageSize": 20,
+        "TotalRows": 0
+      }
+    }
+  }
